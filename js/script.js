@@ -423,7 +423,7 @@
             dots: false,
             autoplay: true,
             autoplayTimeout: 3000,
-            smartSpeed: 1000,
+            smartSpeed: 2000,
             loop: true,
             margin: 20,
             stagePadding: 10,
@@ -440,6 +440,13 @@
             }
         });
     }
+
+    $(document).on('click', '.owl-item', function (e) {
+        var link = $(this).find('.register').data('link');
+        if (link) {
+            window.location.href = link;
+        }
+    });
 
 
     /*------------------------------------------
