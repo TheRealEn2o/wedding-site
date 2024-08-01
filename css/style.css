@@ -29,6 +29,10 @@ URL:            https://themeforest.net/user/irstheme
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
+
+/*Kristine's Added Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@0,400..800;1,400..800&display=swap');
+/*-----------------------*/
 html {
   font-size: 18px;
 }
@@ -1789,7 +1793,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .couple-name-merried-text h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "EB Garamond";
   font-size: 90px;
   font-size: 5rem;
   color: #fff;
