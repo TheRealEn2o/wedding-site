@@ -32,13 +32,16 @@ URL:            https://themeforest.net/user/irstheme
 
 /*Kristine's Added Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 /*-----------------------*/
 html {
   font-size: 18px;
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  /*font-family: "Dosis", sans-serif;*/
+  font-family: "EB Garamond";
   background-color: #fff;
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
@@ -1793,7 +1796,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .couple-name-merried-text h2 {
-  font-family: "EB Garamond";
+  font-family: "Cormorant Garamond";
   font-size: 90px;
   font-size: 5rem;
   color: #fff;
@@ -1946,7 +1949,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date h4 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Monsieur La Doulaise";
   font-size: 40px;
   font-size: 2.22222rem;
   color: #fff;
