@@ -3525,6 +3525,7 @@ a:focus {
 --------------------------------------------------------------*/
 .getting-there-section {
   background-color: #4e2a18;
+  text-align: center;
 }
 
 .getting-there-section .content h3,
@@ -3576,8 +3577,6 @@ a:focus {
 @media screen and (min-width: 992px) {
   .getting-there-section .content > .col:first-child {
     padding-right: 75px;
-    text-align: right;
-    border-right: 1px solid #c1b29d;
   }
 }
 
