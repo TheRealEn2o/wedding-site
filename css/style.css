@@ -1725,8 +1725,8 @@ a:focus {
   .hero .slick-next {
     width: 35px;
     height: 35px;
-    -webkit-box-shadow: 0 0 0 3px rgba(94, 154, 142, 0.9);
-    box-shadow: 0 0 0 3px rgba(94, 154, 142, 0.9);
+    -webkit-box-shadow: 0 0 0 3px #c1b29d;
+    box-shadow: 0 0 0 3px #c1b29d;
   }
 }
 
@@ -3016,7 +3016,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .inportant-people-section .tablist {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 }
 
@@ -3028,6 +3028,12 @@ a:focus {
 .inportant-people-section .tablist ul li {
   float: left;
   margin:  0 10px;
+}
+
+@media (max-width: 767px) {
+  .inportant-people-section .tablist ul li {
+    margin: 3px;
+  }
 }
 
 .inportant-people-section .tablist ul li a {
